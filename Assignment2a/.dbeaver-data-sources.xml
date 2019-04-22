@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="postgres-jdbc-1695425b697-4b955c6931132a2a" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="postgres" url="jdbc:postgresql://localhost:5432/postgres" user="postgres" password="OgoFL1NRQRURQ1RtQ3ak" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-16954268bfd-5f4f1bf0f613b7b4" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres 2" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="postgres" url="jdbc:postgresql://localhost:5432/postgres" user="postgres" password="OgoFL1NRQRURQ1RtQ3ak" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-1695e5adef2-6bbd634aafff7602" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres 3" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="postgres" url="jdbc:postgresql://localhost:5432/postgres" user="postgres" password="OgoFL1NRQRURQ1RtQ3ak" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-1695e5b36bf-611162b181d72bc9" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres 4" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="postgres" url="jdbc:postgresql://localhost:5432/postgres" user="postgres" password="OgoFL1NRQRURQ1RtQ3ak" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-1695e5c10dd-7bc24183d6aa853b" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres 5" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="postgres" url="jdbc:postgresql://localhost:5432/postgres" user="postgres" password="OgoFL1NRQRURQ1RtQ3ak" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
