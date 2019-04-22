@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      > 
+	<h:head>
+		<title>TestForm</title>
+	</h:head> 
+	<body> 
+		<!-- Set the Layout and Title for this page -->
+		<ui:composition template="/layouts/commonLayout.xhtml">
+			<ui:define name="title">JSF Login Page</ui:define>
+			<ui:define name="content">
+				<div align="center">
+					<h:form>
+						Book:<h:inputText value = "#{verse.book}"  /> <br/>
+						<br/>
+						Chapter:<h:inputText value = "#{verse.chapter}"/> 
+						<br/>
+						Verse:<h:inputText value = "#{verse.verse}" /> <br/>
+						 <h:commandButton action="#{restController.onSubmit(verse)}" value="Submit" />
+						
+						 
+					</h:form>
+					<h:messages />
+					#{verse.result}
+				</div>
+			</ui:define>
+		</ui:composition>
+	</body>
+</html>

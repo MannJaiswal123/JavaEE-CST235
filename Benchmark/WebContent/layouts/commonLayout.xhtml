@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+	
+	<h:head>
+	<title><ui:insert name="title"> JSF In-Class Activity</ui:insert></title>
+	<h:outputStylesheet library="css" name="common-style.css"/>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"/>
+	<!-- <h:outputScript library="js" name" -->
+	</h:head>
+	<h:body>
+	<div id="page" class="container-fluid">
+	
+	   <!-- Insert Header Facelet -->
+	   <div id="header" align="center">
+	   <ui:insert>
+	   <ui:include src="/layouts/commonHeader.xhtml" />
+	   </ui:insert>
+	   </div>
+	   
+	   <!-- Insert Content Facelet -->
+	   <div id="content">
+	   <ui:insert name="content">
+	   <ui:include src="/layouts/commonContent.xhtml" />
+	   </ui:insert>
+	   </div>
+	   
+	   <!-- Insert Footer Facelet -->
+	   <div id="footer" align="center">
+	   <ui:insert name="footer">
+	      <ui:include src="/layouts/commonFooter.xhtml"/>
+	     </ui:insert>
+	     </div>
+	     
+	     </div>
+	     </h:body>
+	     </html>
+	     
+	   
+	   
+	 
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
